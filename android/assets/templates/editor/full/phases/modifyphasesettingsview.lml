@@ -1,0 +1,4 @@
+<table id=modifyPhaseSettingsView pad=2>
+    <textButton id=changePhaseName style=medium row=true>Change Phase Name</textButton>
+    <textButton id=deletePhase style=medium row=true>Delete Phase</textButton>
+</table>

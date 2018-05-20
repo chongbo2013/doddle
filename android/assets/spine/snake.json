@@ -1,0 +1,70 @@
+{
+"skeleton": { "hash": "oWgOYT05+YNE5PRcjysjHoe18Og", "spine": "3.4.02", "width": 371.78, "height": 11.45, "images": "./spine/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "length": 126, "rotation": 0.45 },
+	{ "name": "bone2", "parent": "bone", "length": 127.99, "rotation": -0.45, "x": 126 },
+	{ "name": "bone3", "parent": "bone2", "length": 130.56, "rotation": -0.59, "x": 123.95, "y": 0.45 }
+],
+"slots": [
+	{ "name": "snakesegment", "bone": "bone3", "attachment": "snakesegment" },
+	{ "name": "snakesegment2", "bone": "bone2", "attachment": "snakesegment" },
+	{ "name": "snakesegment3", "bone": "bone", "attachment": "snakesegment" }
+],
+"skins": {
+	"default": {
+		"snakesegment": {
+			"snakesegment": { "x": 57.87, "y": 0.59, "scaleX": 2.48, "rotation": 0.59, "width": 50, "height": 10 }
+		},
+		"snakesegment2": {
+			"snakesegment": { "x": 57.87, "scaleX": 2.278, "width": 50, "height": 10 }
+		},
+		"snakesegment3": {
+			"snakesegment": { "x": 59.22, "y": -0.47, "scaleX": 2.446, "rotation": -0.45, "width": 50, "height": 10 }
+		}
+	}
+},
+"animations": {
+	"animation": {},
+	"run": {
+		"bones": {
+			"bone3": {
+				"rotate": [
+					{ "time": 0, "angle": -8.54 },
+					{ "time": 0.0666, "angle": -18.49 },
+					{ "time": 0.1333, "angle": -6.25 },
+					{ "time": 0.2, "angle": 3.25 },
+					{ "time": 0.2666, "angle": 7.71 },
+					{ "time": 0.3333, "angle": -3.55 },
+					{ "time": 0.4, "angle": -7.23 },
+					{ "time": 0.4666, "angle": -0.38 },
+					{ "time": 0.5666, "angle": 0.73 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "time": 0.0666, "angle": -7.28 },
+					{ "time": 0.1333, "angle": -12.86 },
+					{ "time": 0.2, "angle": -4.13 },
+					{ "time": 0.2666, "angle": -1.34 },
+					{ "time": 0.3333, "angle": -7.79 },
+					{ "time": 0.4, "angle": -0.38 },
+					{ "time": 0.4666, "angle": -2.69 },
+					{ "time": 0.5666, "angle": -0.96 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "time": 0.1333, "angle": -4.87 },
+					{ "time": 0.2, "angle": -6.84 },
+					{ "time": 0.2666, "angle": -5.23 },
+					{ "time": 0.3333, "angle": -2.18 },
+					{ "time": 0.4, "angle": 3.91 },
+					{ "time": 0.4666, "angle": 2.68 },
+					{ "time": 0.5666, "angle": 0.17 }
+				]
+			}
+		}
+	}
+}
+}

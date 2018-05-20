@@ -1,0 +1,4 @@
+<table fillparent=true>
+    <label row=true style=default-black pad=20>Playing Full Dodle...</label>
+    <button id=exitButton>Exit</button>
+</table>

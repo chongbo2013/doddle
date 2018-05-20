@@ -1,0 +1,10 @@
+<table id=basicManagerView>
+    <textButton id=phaseToggler expandX=true fillX=true style=medium row=true multiline=true>
+        Phase
+        (Basic)
+    </textButton>
+    <scrollPane id=phasesUIManagerScroller expandX=true expandY=true fillY=true style=no-scroll-bars>
+        <verticalgroup id=phasesUIList padtop=2>
+        </verticalgroup>
+    </scrollPane>
+</table>

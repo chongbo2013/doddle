@@ -1,0 +1,7 @@
+<table id=fallbackManagerView>
+    <textButton id=phaseToggler expandX=true fillX=true style=small row=true></textButton>
+    <scrollPane id=phasesUIManagerScroller expandX=true expandY=true fillY=true style=no-scroll-bars>
+        <verticalgroup id=phasesUIList padtop=2>
+        </verticalgroup>
+    </scrollPane>
+</table>

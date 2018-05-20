@@ -1,0 +1,95 @@
+{
+    "MOVE": {
+        "puff": {
+            displayName: "Puff",
+            keyframes: [
+                { keyframeType: "Motion", pct: 0, scalePct: 0 },
+                { keyframeType: "Motion", pct: 50, scalePct: 100, tween: "circOut" },
+                { keyframeType: "Motion", pct: 100, scalePct: 0, tween: "circIn" }
+            ],
+            defaultParameters: {
+                length: 0.5,
+                scale: 1.25
+            }
+        },
+        "spin": {
+            displayName: "Spin",
+            keyframes: [
+                { keyframeType: "Motion", pct: 100, rotatePct: 100, tween: "sineInOut" }
+            ],
+            defaultParameters: {
+                length: 4,
+                degrees: 360
+            }
+        },
+        "jump": {
+                displayName: "Jump",
+                keyframes: [
+                        { keyframeType: "Motion", pct: 0, translateYPct: 0 },
+                        { keyframeType: "Motion", pct: 50, translateYPct: -100, tween: "circOut" },
+                        { keyframeType: "Motion", pct: 100, translateYPct: 0, tween: "circIn" }
+                ],
+                defaultParameters: {
+                        length: 0.5,
+                        translateY: 100
+                }
+        },
+        "drop": {
+                displayName: "Drop",
+                keyframes: [
+                        { keyframeType: "Motion", pct: 0, translateYPct: 0 },
+                        { keyframeType: "Motion", pct: 20, translateYPct: 100, tween: "circIn" },
+                        { keyframeType: "Motion", pct: 40, translateYPct: 50, tween: "circOut" },
+                        { keyframeType: "Motion", pct: 60, translateYPct: 100, tween: "circIn" },
+                        { keyframeType: "Motion", pct: 80, translateYPct: 75, tween: "circOut" },
+                        { keyframeType: "Motion", pct: 100, translateYPct: 100, tween: "circIn" }
+                ],
+                defaultParameters: {
+                        length: 4,
+                        translateY: 200
+                }
+        },
+        "moveUp": {
+                displayName: "Move Up",
+                keyframes: [
+                        { keyframeType: "Motion", pct: 0, translateYPct: 0 },
+                        { keyframeType: "Motion", pct: 50, translateYPct: -50, tween: "sineIn" },
+                        { keyframeType: "Motion", pct: 100, translateYPct: -100, tween: "sineOut" }
+                ],
+                defaultParameters: {
+                        length: 1,
+                        translateY: 100
+                }
+        },
+        "moveRight": {
+                displayName: "Move Right",
+                keyframes: [
+                        { keyframeType: "Motion", pct: 0, translateXPct: 0 },
+                        { keyframeType: "Motion", pct: 50, translateXPct: 50, tween: "sineIn" },
+                        { keyframeType: "Motion", pct: 100, translateXPct: 100, tween: "sineOut" }
+                ],
+                defaultParameters: {
+                        length: 1,
+                        translateX: 100
+                }
+        }
+    },
+    "SCENES": {
+        "changeScene": {
+            displayName: "Change Scene",
+            operation: "CHANGE_SCENE",
+            defaultParameters: {
+                    sceneNum: 1
+            }
+        }
+    },
+    "PHASES": {
+        "changePhase": {
+            displayName: "Change Phase",
+            operation: "CHANGE_PHASE",
+            defaultParameters: {
+                    phaseNum: 2
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-switch",
+        "scope": null,
+        "escapedName": "react-native-switch",
+        "name": "react-native-switch",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/brian/develop/dodles-app"
+    ]
+  ],
+  "_from": "react-native-switch@latest",
+  "_id": "react-native-switch@1.1.0",
+  "_inCache": true,
+  "_location": "/react-native-switch",
+  "_nodeVersion": "7.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-switch-1.1.0.tgz_1493235594534_0.2908927877433598"
+  },
+  "_npmUser": {
+    "name": "shahen",
+    "email": "shahen.hovhannisyan.94@gmail.com"
+  },
+  "_npmVersion": "4.5.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-switch",
+    "scope": null,
+    "escapedName": "react-native-switch",
+    "name": "react-native-switch",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-switch/-/react-native-switch-1.1.0.tgz",
+  "_shasum": "4dd6e0dc458668a14a69ec1370e0eb7905c77236",
+  "_shrinkwrap": null,
+  "_spec": "react-native-switch",
+  "_where": "/Users/brian/develop/dodles-app",
+  "author": {
+    "name": "Shahen Hovhannisyan",
+    "email": "shahen.hovhannisyan.94@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shahen94/react-native-switch/issues"
+  },
+  "dependencies": {},
+  "description": "Customisable switch component for RN",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "4dd6e0dc458668a14a69ec1370e0eb7905c77236",
+    "tarball": "https://registry.npmjs.org/react-native-switch/-/react-native-switch-1.1.0.tgz"
+  },
+  "gitHead": "1b66df6302a3d665f5185421bf71cf20d38dcb4e",
+  "homepage": "https://github.com/shahen94/react-native-switch#readme",
+  "keywords": [
+    "react-native",
+    "react",
+    "shapes",
+    "android",
+    "ios",
+    "mobile",
+    "switch",
+    "customisable"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "shahen",
+      "email": "shahen.hovhannisyan.94@gmail.com"
+    }
+  ],
+  "name": "react-native-switch",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.29"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shahen94/react-native-switch.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

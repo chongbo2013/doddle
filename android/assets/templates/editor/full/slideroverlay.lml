@@ -1,0 +1,7 @@
+<table fillParent=true >
+    <container expandX=true fillX=true background=menu-row-shade-3 row=true height={oneRowSize} />
+    <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=valueRow />
+    <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize}>
+        <table fillX=true expandX=true fillY=true expandY=true id=sliderRow />
+    </table>
+</table>

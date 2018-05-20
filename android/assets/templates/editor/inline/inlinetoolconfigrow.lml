@@ -1,0 +1,5 @@
+<buttonGroup max=1 id=buttonGroup>
+    <TextButton id=toolButton style=dodles-toggle expandY=true fillY=true>Brush</TextButton>
+    <TextButton id=colorButton style=dodles-toggle expandY=true fillY=true>Color</TextButton>
+    <TextButton id=strokeButton style=dodles-toggle expandY=true fillY=true>Stroke / Opacity</TextButton>
+</buttonGroup>

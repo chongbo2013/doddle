@@ -1,0 +1,10 @@
+<table fillParent=true >
+    <label id=label1></label>
+    <slider expandX=true fillX=true padRight=25 id=slider1></slider>
+    <label id=label2></label>
+    <slider expandX=true fillX=true padRight=25 id=slider2></slider>
+    <label id=label3></label>
+    <slider expandX=true fillX=true padRight=25 id=slider3></slider>
+    <label id=label4></label>
+    <slider expandX=true fillX=true id=slider4></slider>
+</table>

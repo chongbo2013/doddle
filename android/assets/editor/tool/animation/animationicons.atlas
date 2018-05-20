@@ -1,0 +1,167 @@
+
+animationicons.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ANGLE
+  rotate: false
+  xy: 137, 343
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+AUDIO
+  rotate: false
+  xy: 2, 3
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+EMOTION
+  rotate: false
+  xy: 267, 343
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+MOVE
+  rotate: false
+  xy: 397, 343
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+MOVE_drop
+  rotate: false
+  xy: 657, 223
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MOVE_jump
+  rotate: false
+  xy: 137, 213
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MOVE_moveRight
+  rotate: false
+  xy: 267, 213
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MOVE_moveUp
+  rotate: false
+  xy: 397, 213
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MOVE_puff
+  rotate: false
+  xy: 527, 213
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+MOVE_spin
+  rotate: false
+  xy: 234, 83
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+PHASES
+  rotate: false
+  xy: 527, 343
+  size: 128, 160
+  orig: 128, 160
+  offset: 0, 0
+  index: -1
+SCENES
+  rotate: false
+  xy: 657, 353
+  size: 128, 150
+  orig: 128, 150
+  offset: 0, 0
+  index: -1
+blocks
+  rotate: false
+  xy: 494, 85
+  size: 128, 126
+  orig: 128, 126
+  offset: 0, 0
+  index: -1
+effects
+  rotate: false
+  xy: 132, 13
+  size: 100, 150
+  orig: 100, 150
+  offset: 0, 0
+  index: -1
+folder
+  rotate: false
+  xy: 657, 124
+  size: 128, 97
+  orig: 128, 97
+  offset: 0, 0
+  index: -1
+garbage
+  rotate: false
+  xy: 364, 83
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+handle
+  rotate: false
+  xy: 926, 353
+  size: 65, 150
+  orig: 65, 150
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 787, 243
+  size: 134, 129
+  orig: 134, 129
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 2, 334
+  size: 133, 169
+  orig: 133, 169
+  offset: 0, 0
+  index: -1
+play
+  rotate: false
+  xy: 2, 165
+  size: 132, 167
+  orig: 132, 167
+  offset: 0, 0
+  index: -1
+playspeed
+  rotate: false
+  xy: 234, 2
+  size: 125, 79
+  orig: 125, 79
+  offset: 0, 0
+  index: -1
+reset
+  rotate: false
+  xy: 787, 374
+  size: 137, 129
+  orig: 137, 129
+  offset: 0, 0
+  index: -1
+timesplice
+  rotate: false
+  xy: 787, 165
+  size: 140, 76
+  orig: 140, 76
+  offset: 0, 0
+  index: -1

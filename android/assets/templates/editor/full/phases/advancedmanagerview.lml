@@ -1,0 +1,9 @@
+<table id=advancedManagerView>
+    <textButton id=phaseToggler expandX=true fillX=true style=medium row=true multiline=true>
+        Phase
+        (Advanced)
+    </textButton>
+    <scrollPane id=phasesUIManagerScroller expandX=true expandY=true fillY=true style=no-scroll-bars>
+
+    </scrollPane>
+</table>

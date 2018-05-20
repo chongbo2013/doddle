@@ -1,0 +1,13 @@
+<table fillParent=true background=menu-row-shade-3>
+    <table expandX=true fillX=true row=false height={threeRowSize} uniformX=true>
+        <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=hueRow />
+        <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=saturationRow />
+        <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=valueRow />
+    </table>
+    <table expandX=true fillX=true row=false height={threeRowSize} uniformX=true>
+        <table fillX=true expandX=true row=true background=menu-row-shade-3 height={smallRowSize} id=selectedColorRow />
+         <scrollPane style=no-scroll-bars id=scrollPane>
+            <table id=colors height={threeSmallRows} background=menu-row-shade-3 />
+         </scrollPane>
+    </table>
+</table>

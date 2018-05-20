@@ -1,0 +1,14 @@
+<table id=phaseConfigSettingsView>
+    <table id=newPhaseActionTable fillX=true fillY=true expandX=true expandY=true row=true>
+        <textButton id=icon style=medium>Icon</textButton>
+        <textField id=name row=true message="Character Name" style=small fillX=true></textField>
+        <label style=small>Type:</label>
+        <selectBox id=phaseType selected=0>
+            <label></label>
+        </selectBox>
+    </table>
+    <table id=phaseObjects fillX=true fillY=true expandX=true expandY=true row=true>
+        <scrollPane id=phasesConfigScroller expandX=true expandY=true fillY=true style=no-scroll-bars>
+        </scrollPane>
+    </table>
+</table>

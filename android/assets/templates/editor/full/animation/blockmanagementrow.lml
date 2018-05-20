@@ -1,0 +1,7 @@
+<table fillparent=true>
+    <button>Blocks</button>
+    <table padLeft=10 id=blockTable />
+    <button padLeft=5 id=addBlockButton>+</button>
+    <container fillX=true expandX=true />
+    <button id=previewButton>Preview</button>
+</table>

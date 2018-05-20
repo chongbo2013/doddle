@@ -1,0 +1,12 @@
+//
+//  integrated.release.xcconfig
+//
+//  This custom configuration file is required to integrate the ios-moe custom config file (custom.xcconfig) and
+//  the react native required cocoapod custom config files (Pods-ios-moe.release.xcconfig).
+//
+//  This is required because when ios-moe attempts to rebuild / run the ios module from IntelliJ, it overwrites
+//  its custom.xcconfig and removes the #includes for the cocoapods xcconfigs.
+//
+
+#include "Pods/Target Support Files/Pods-ios-moe/Pods-ios-moe.release.xcconfig"
+#include "custom.xcconfig"

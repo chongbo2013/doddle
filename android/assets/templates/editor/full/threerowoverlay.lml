@@ -1,0 +1,5 @@
+<table fillParent=true background=menu-row-shade-3>
+    <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=row1 />
+    <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=row2 />
+    <table fillX=true expandX=true row=true background=menu-row-shade-3 height={oneRowSize} id=row3 />
+</table>

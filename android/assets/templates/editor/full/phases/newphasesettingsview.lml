@@ -1,0 +1,11 @@
+<table id=newPhaseSettingsView pad=2>
+    <label expandX=true row=true>Add Phase</label>
+    <table id=newPhaseActionTable row=true>
+        <textButton id=blankPhase style=medium pad=10>Blank</textButton>
+        <textButton id=copyPhase style=medium pad=10 row=true >Copy Phase</textButton>
+        <textButton id=fromLibrary style=medium pad=10>From Library</textButton>
+        <textButton id=fromChest style=medium pad=10>From Chest</textButton>
+    </table>
+    <label expandX=true row=true>Add Folder</label>
+    <textButton id=addFolder style=medium row=true pad=10>Folder</textButton>
+</table>

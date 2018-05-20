@@ -1,0 +1,55 @@
+<table fillParent=true>
+    <:calculate fullTraySize {threeRowSize} + {trayTabOffset} />
+    <:calculate halfOffset {trayTabOffset} / 2 />
+
+    <container id=headerRow fillX=true expandX=true height={headerRowSize} touchable=enabled row=true />
+
+    <stack expandX=true expandY=true fillX=true fillY=true row=true>
+
+        <table fillParent=true>
+            <stack id=fullScreenCanvasOverlay expandX=true expandY=true fillX=true fillY=true>
+            </stack>
+        </table>
+
+        <table id=busyOverlay fillParent=true touchable=enabled background=overlay visible=false>
+            <label fillY=true expandY=true align=center>Please wait...</label>
+        </table>
+
+        <table fillParent=true>
+            <stack fillX=true expandX=true expandY=true height={fullTraySize} id=toolbarHost row=true align=bottom>
+
+                <table fillParent=true id=rowToolTable background=grey_lt_2>
+                    <container fillX=true expandX=true row=true height=1 background=grey_md />
+                    <container fillX=true expandX=true row=true height={trayTabOffset} />
+                    <container fillX=true expandX=true touchable=enabled row=true height={oneRowSize} id=row1 />
+                    <container fillX=true expandX=true touchable=enabled row=true height={oneRowSize} id=row2 />
+                    <container fillX=true expandX=true touchable=enabled row=true height={oneRowSize} id=row3 />
+                </table>
+
+                <passthroughScrollPane fillParent=true style=no-scroll-bars id=scrollPane>
+                    <table>
+                        <:calculate paddingSize {twoRowSize} />
+                        <container id=scrollPanePadding expandX=true fillX=true row=true height={paddingSize} />
+                        <table id=trayTable fillX=true row=true>
+                            <table id=trayIconRow row=true expandX=true fillX=true align=bottom height={trayTabOffset} />
+                            <table fillX=true expandX=true row=true touchable=enabled background=grey_lt height={threeRowSize} id=toolRow />
+                        </table>
+                    </table>
+                </passthroughScrollPane>
+
+                <table fillParent=true>
+                    <:calculate overlaySize {threeRowSize} + {trayTabOffset} / 2 />
+                    <container fillX=true expandX=true row=true height={trayTabOffset} />
+                    <container fillX=true expandX=true row=true id=overlay height={threeRowSize} />
+                </table>
+
+            </stack>
+        </table>
+
+        <table fillParent=true>
+            <stack id=canvasOverlayStack expandX=true expandY=true fillX=true fillY=true padBottom={threeRowSize}>
+            </stack>
+        </table>
+
+    </stack>
+</table>

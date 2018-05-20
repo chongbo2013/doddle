@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'ios-moe' do
+
+  pod 'React', :path => '../../node_modules/react-native', :subspecs => [
+    'Core',
+    'BatchedBridge',
+    'DevSupport',
+    'RCTAnimation',
+    'RCTActionSheet',
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket',
+    'RCTImage'
+  ]
+  pod "Yoga", :path => "../../node_modules/react-native/ReactCommon/yoga"
+  pod 'RNFS', :path => '../../node_modules/react-native-fs'
+  pod 'RNShare', :path => '../../node_modules/react-native-share'
+
+end
+
+target 'ios-moe-Test' do
+
+  pod 'React', :path => '../../node_modules/react-native', :subspecs => [
+    'Core',
+    'BatchedBridge',
+    'DevSupport',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket',
+    'RCTImage'
+  ]
+  pod "Yoga", :path => "../../node_modules/react-native/ReactCommon/yoga"
+  pod 'RNFS', :path => '../../node_modules/react-native-fs'
+  pod 'RNShare', :path => '../../node_modules/react-native-share'
+
+end

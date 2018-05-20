@@ -1,0 +1,76 @@
+
+header.png
+size: 512,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+cancel_clip
+  rotate: false
+  xy: 425, 171
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 2, 345
+  size: 225, 144
+  orig: 225, 144
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 2, 199
+  size: 154, 144
+  orig: 154, 144
+  offset: 0, 0
+  index: -1
+ok_level_0
+  rotate: false
+  xy: 425, 47
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+ok_level_1
+  rotate: false
+  xy: 229, 293
+  size: 132, 196
+  orig: 132, 196
+  offset: 0, 0
+  index: -1
+ok_level_2
+  rotate: false
+  xy: 2, 2
+  size: 131, 195
+  orig: 131, 195
+  offset: 0, 0
+  index: -1
+ok_level_3
+  rotate: false
+  xy: 292, 97
+  size: 131, 194
+  orig: 131, 194
+  offset: 0, 0
+  index: -1
+ok_level_4
+  rotate: false
+  xy: 363, 295
+  size: 131, 194
+  orig: 131, 194
+  offset: 0, 0
+  index: -1
+ok_level_5
+  rotate: false
+  xy: 158, 96
+  size: 132, 195
+  orig: 132, 195
+  offset: 0, 0
+  index: -1
+white_background
+  rotate: false
+  xy: 158, 340
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1

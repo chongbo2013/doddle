@@ -1,0 +1,69 @@
+
+ui.png
+size: 1024,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+PivotPointImage
+  rotate: false
+  xy: 850, 7
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+overlay_drill_selected
+  rotate: false
+  xy: 2, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_drill_unselected
+  rotate: false
+  xy: 108, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_effects_selected
+  rotate: false
+  xy: 214, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_effects_unselected
+  rotate: false
+  xy: 320, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_options_selected
+  rotate: false
+  xy: 426, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_options_unselected
+  rotate: false
+  xy: 532, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_peel_selected
+  rotate: false
+  xy: 638, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1
+overlay_peel_unselected
+  rotate: false
+  xy: 744, 2
+  size: 104, 105
+  orig: 104, 105
+  offset: 0, 0
+  index: -1

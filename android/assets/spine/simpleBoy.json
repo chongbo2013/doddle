@@ -1,0 +1,117 @@
+{
+"skeleton": { "hash": "WLiIwjiSuNgSfvAaSu+tCMkFx4c", "spine": "3.4.02", "width": 262.84, "height": 395.14, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "torso", "parent": "root", "length": 190.01, "rotation": 90.6, "x": 20.99, "y": -157.99 },
+	{ "name": "head", "parent": "torso", "length": 58, "rotation": -1.59, "x": 197.02, "y": 0.92 },
+	{ "name": "leftarm", "parent": "torso", "length": 146.16, "rotation": 55.27, "x": 97.99, "y": -1.03 },
+	{ "name": "leftleg", "parent": "torso", "length": 130, "rotation": 126.26, "x": -3.01, "y": -0.96 },
+	{ "name": "rightarm", "parent": "torso", "length": 151.43, "rotation": -56.91, "x": 100.99, "y": -1.06 },
+	{ "name": "rightleg", "parent": "torso", "length": 125.25, "rotation": -133.33, "x": -0.99, "y": 0.01, "scaleY": 1.734 }
+],
+"slots": [
+	{ "name": "torsoSlot", "bone": "torso", "attachment": "snake" },
+	{ "name": "leftlegSlot", "bone": "leftleg", "attachment": "snake" },
+	{ "name": "headSlot", "bone": "head", "attachment": "yuck" },
+	{ "name": "rightarmSlot", "bone": "rightarm", "attachment": "snake" },
+	{ "name": "leftarmSlot", "bone": "leftarm", "attachment": "snake" },
+	{ "name": "rightlegSlot", "bone": "rightleg", "attachment": "snake" }
+],
+"skins": {
+	"default": {
+		"headSlot": {
+			"yuck": { "rotation": -89.01, "width": 160, "height": 160 }
+		},
+		"leftarmSlot": {
+			"snake": { "x": 61.29, "y": 0.46, "scaleX": 2.249, "scaleY": 1.539, "rotation": 177.52, "width": 64, "height": 16 }
+		},
+		"leftlegSlot": {
+			"snake": { "x": 69.4, "y": -0.8, "scaleX": 2.155, "scaleY": 2.155, "rotation": 0.42, "width": 64, "height": 16 }
+		},
+		"rightarmSlot": {
+			"snake": { "x": 80.15, "y": -0.55, "scaleX": 2.665, "scaleY": 1.346, "rotation": 2.02, "width": 64, "height": 16 }
+		},
+		"rightlegSlot": {
+			"snake": { "x": 65.84, "y": 0.53, "scaleX": 2.535, "scaleY": 1.71, "rotation": -0.38, "width": 64, "height": 16 }
+		},
+		"torsoSlot": {
+			"snake": { "x": 114.99, "y": -1.21, "scaleX": 4.261, "scaleY": 1.803, "rotation": 1.15, "width": 64, "height": 16 }
+		}
+	}
+},
+"animations": {
+	"run": {
+		"bones": {
+			"leftarm": {
+				"rotate": [
+					{ "time": 0.0333, "angle": 9.6 },
+					{ "time": 0.0666, "angle": 28.74 },
+					{ "time": 0.1, "angle": 35.7 },
+					{ "time": 0.5333, "angle": 67.97 },
+					{ "time": 0.7666, "angle": 101.48 },
+					{ "time": 1.1, "angle": 54.54 },
+					{ "time": 1.2, "angle": 14.28 },
+					{ "time": 1.2666, "angle": -26.2 }
+				]
+			},
+			"rightarm": {
+				"rotate": [
+					{ "time": 0.0333, "angle": -14.28 },
+					{ "time": 0.0666, "angle": -21.08 },
+					{ "time": 0.1, "angle": -41.89 },
+					{ "time": 0.5333, "angle": -86.58 },
+					{ "time": 0.7666, "angle": -46.81 },
+					{ "time": 0.9333, "angle": -85.32 },
+					{ "time": 1.1, "angle": 3.64 },
+					{ "time": 1.2, "angle": 5.49 },
+					{ "time": 1.2666, "angle": -34.99 }
+				],
+				"translate": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0.0333, "x": 1, "y": 1 }
+				],
+				"shear": [
+					{ "time": 0.0333, "x": 0, "y": 0 }
+				]
+			},
+			"leftleg": {
+				"rotate": [
+					{ "time": 0.0666, "angle": -16.8 },
+					{ "time": 0.1, "angle": -0.76 },
+					{ "time": 0.1333, "angle": 21.66 },
+					{ "time": 0.7666, "angle": 18.65 },
+					{ "time": 0.9333, "angle": -31.45 },
+					{ "time": 1.1, "angle": 49.51 },
+					{ "time": 1.2, "angle": 46.57 },
+					{ "time": 1.2666, "angle": 6.08 }
+				]
+			},
+			"rightleg": {
+				"rotate": [
+					{ "time": 0.0666, "angle": 13.28 },
+					{ "time": 0.1, "angle": 2.43 },
+					{ "time": 0.1333, "angle": -9.84 },
+					{ "time": 0.7666, "angle": 73.74 },
+					{ "time": 0.9333, "angle": 46.43 },
+					{ "time": 1.1, "angle": 41.74 },
+					{ "time": 1.2, "angle": -12.58 },
+					{ "time": 1.2666, "angle": 306.92 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0.0666, "angle": -29.3 },
+					{ "time": 0.1, "angle": -41.44 },
+					{ "time": 0.7666, "angle": 39.15 },
+					{ "time": 0.9333, "angle": 10.5 },
+					{ "time": 1.1, "angle": 67.02 },
+					{ "time": 1.2, "angle": 49.41 },
+					{ "time": 1.2666, "angle": 8.92 }
+				]
+			}
+		}
+	}
+}
+}

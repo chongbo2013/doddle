@@ -1,0 +1,223 @@
+
+phaseicons.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+ANGLE_BACKWARD
+  rotate: false
+  xy: 182, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_BACKWARD_LEFT_QUARTER
+  rotate: false
+  xy: 312, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_BACKWARD_RIGHT_QUARTER
+  rotate: false
+  xy: 442, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_BOTTOM
+  rotate: false
+  xy: 572, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_FORWARD
+  rotate: false
+  xy: 702, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_FORWARD_LEFT_QUARTER
+  rotate: false
+  xy: 832, 376
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_FORWARD_RIGHT_QUARTER
+  rotate: false
+  xy: 226, 246
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_LEFT
+  rotate: false
+  xy: 356, 246
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_RIGHT
+  rotate: false
+  xy: 486, 246
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ANGLE_TOP
+  rotate: false
+  xy: 616, 246
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+EMOTION_DAT_GRIN
+  rotate: false
+  xy: 2, 365
+  size: 178, 139
+  orig: 178, 139
+  offset: 0, 0
+  index: -1
+EMOTION_DISGUST
+  rotate: false
+  xy: 746, 190
+  size: 88, 68
+  orig: 88, 68
+  offset: 0, 0
+  index: -1
+EMOTION_GRIN
+  rotate: false
+  xy: 349, 155
+  size: 138, 89
+  orig: 138, 89
+  offset: 0, 0
+  index: -1
+EMOTION_NORMAL
+  rotate: false
+  xy: 654, 67
+  size: 95, 72
+  orig: 95, 72
+  offset: 0, 0
+  index: -1
+EMOTION_NOT_IMPRESSED
+  rotate: false
+  xy: 227, 50
+  size: 97, 72
+  orig: 97, 72
+  offset: 0, 0
+  index: -1
+EMOTION_PISSED
+  rotate: false
+  xy: 349, 69
+  size: 107, 84
+  orig: 107, 84
+  offset: 0, 0
+  index: -1
+EMOTION_SAD
+  rotate: false
+  xy: 2, 2
+  size: 105, 68
+  orig: 105, 68
+  offset: 0, 0
+  index: -1
+EMOTION_SHOCK_SURPRISE
+  rotate: false
+  xy: 458, 53
+  size: 101, 88
+  orig: 101, 88
+  offset: 0, 0
+  index: -1
+EMOTION_SMILE
+  rotate: false
+  xy: 122, 37
+  size: 100, 67
+  orig: 100, 67
+  offset: 0, 0
+  index: -1
+EMOTION_SMIRK
+  rotate: false
+  xy: 654, 2
+  size: 99, 63
+  orig: 99, 63
+  offset: 0, 0
+  index: -1
+TALK_A
+  rotate: false
+  xy: 746, 260
+  size: 141, 114
+  orig: 141, 114
+  offset: 0, 0
+  index: -1
+TALK_E
+  rotate: false
+  xy: 889, 261
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1
+TALK_F_V
+  rotate: false
+  xy: 489, 143
+  size: 122, 101
+  orig: 122, 101
+  offset: 0, 0
+  index: -1
+TALK_L_N
+  rotate: false
+  xy: 113, 233
+  size: 111, 130
+  orig: 111, 130
+  offset: 0, 0
+  index: -1
+TALK_M_B_P
+  rotate: false
+  xy: 613, 141
+  size: 122, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+TALK_RESTING
+  rotate: false
+  xy: 613, 141
+  size: 122, 103
+  orig: 122, 103
+  offset: 0, 0
+  index: -1
+TALK_O
+  rotate: false
+  xy: 122, 106
+  size: 103, 125
+  orig: 103, 125
+  offset: 0, 0
+  index: -1
+TALK_T_S
+  rotate: false
+  xy: 2, 72
+  size: 118, 138
+  orig: 118, 138
+  offset: 0, 0
+  index: -1
+TALK_U_Q
+  rotate: false
+  xy: 561, 42
+  size: 91, 97
+  orig: 91, 97
+  offset: 0, 0
+  index: -1
+TALK_W_R
+  rotate: false
+  xy: 2, 212
+  size: 109, 151
+  orig: 109, 151
+  offset: 0, 0
+  index: -1
+phase_arrow
+  rotate: false
+  xy: 227, 124
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1

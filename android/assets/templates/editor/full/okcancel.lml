@@ -1,0 +1,4 @@
+<table fillParent=true>
+    <button id=cancel>Cancel</button>
+    <button id=ok>OK</button>
+</table>

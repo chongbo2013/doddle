@@ -1,0 +1,8 @@
+{
+    com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    },
+    com.badlogic.gdx.graphics.Color: {
+    },
+    com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit trunk//EN" "http://gwtproject.org/doctype/2.8.0/gwt-module.dtd">
+<module>
+	<source path="com/dodles/gdx/dodleengine" />
+        <source path="com/gurella/engine/graphics/vector" />
+        <source path="com/syl/test43" />
+        <source path="de/hypergraphs/hyena/core/shared/data" />
+        <source path="com/jabistudio/androidjhlabs/filter" />
+        <inherits name='dagger/Dagger' />
+        <inherits name="java.util.Util"/>
+        <inherits name="com.esotericsoftware.spine"/>
+        <inherits name='com.github.czyzby.lml.vis.GdxLmlVis' />
+        
+        <extend-configuration-property name="gdx.reflect.include" value="com.dodles.gdx.dodleengine.assets.BitmapFontAssets" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.dodles.gdx.dodleengine.scenegraph.StrokeConfig" />
+        
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.AffineTransform" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.Canvas" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.CanvasState" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.FrameBuffer" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.GlCall" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.GlPathComponent" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.GlUniforms" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.Path" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.PathComponent" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.PathMesh" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.Point" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.RenderGraph" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.Scissor" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.Vertex" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.CircleElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.DefsElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.GroupElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.LineElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.PathElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.PolygonElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.RectElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.StyleElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.SvgElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.TitleElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.EllipseElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.DescElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.PolylineElement" />
+        <extend-configuration-property name="gdx.reflect.include" value="com.gurella.engine.graphics.vector.svg.element.TextElement" />
+</module>

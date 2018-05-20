@@ -1,0 +1,1 @@
+{"output":"src","platform":"iOS","bindings":[{"type":"header","name":"DodlesEngineView","objcClassGenerationMode":"Binding","headerPath":"xcode/ios-moe","headerSearchPaths":[],"userHeaderSearchPaths":[],"frameworkSearchPaths":[],"packageBase":"com.dodles.app.ios.bindings","importCode":"#import \"DodlesEngineView.h\""}]}

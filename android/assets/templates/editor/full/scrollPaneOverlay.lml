@@ -1,0 +1,6 @@
+<table fillParent=true background=menu-row-shade-3>
+    <scrollPane id=scrollPane fill=true expand=true style={scrollPaneStyle} fadeScrollbars={fadeScrollbars}>
+        <table id=scrollContent align=top>
+        </table>
+    </scrollPane>
+</table>

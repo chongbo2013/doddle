@@ -1,0 +1,160 @@
+
+headericons2.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+cancel_clip
+  rotate: false
+  xy: 669, 68
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+chat_1
+  rotate: false
+  xy: 989, 219
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+chat_2
+  rotate: false
+  xy: 138, 22
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+chat_active
+  rotate: false
+  xy: 2, 2
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+chat_inactive
+  rotate: false
+  xy: 853, 200
+  size: 41, 50
+  orig: 41, 50
+  offset: 0, 0
+  index: -1
+dodles_logo
+  rotate: false
+  xy: 669, 192
+  size: 182, 58
+  orig: 182, 58
+  offset: 0, 0
+  index: -1
+draw_active
+  rotate: false
+  xy: 946, 209
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+draw_inactive
+  rotate: false
+  xy: 95, 11
+  size: 41, 41
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+edit_1
+  rotate: false
+  xy: 165, 28
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+edit_2
+  rotate: false
+  xy: 192, 28
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+ok_level_0
+  rotate: false
+  xy: 754, 68
+  size: 83, 122
+  orig: 83, 122
+  offset: 0, 0
+  index: -1
+ok_level_1
+  rotate: false
+  xy: 2, 54
+  size: 132, 196
+  orig: 132, 196
+  offset: 0, 0
+  index: -1
+ok_level_2
+  rotate: false
+  xy: 270, 55
+  size: 131, 195
+  orig: 131, 195
+  offset: 0, 0
+  index: -1
+ok_level_3
+  rotate: false
+  xy: 403, 56
+  size: 131, 194
+  orig: 131, 194
+  offset: 0, 0
+  index: -1
+ok_level_4
+  rotate: false
+  xy: 536, 56
+  size: 131, 194
+  orig: 131, 194
+  offset: 0, 0
+  index: -1
+ok_level_5
+  rotate: false
+  xy: 136, 55
+  size: 132, 195
+  orig: 132, 195
+  offset: 0, 0
+  index: -1
+red-bubble
+  rotate: false
+  xy: 296, 38
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+red-bubble-large
+  rotate: false
+  xy: 273, 38
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+rollout_menu_1
+  rotate: false
+  xy: 219, 28
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+rollout_menu_2
+  rotate: false
+  xy: 246, 28
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+rollout_menu_active
+  rotate: false
+  xy: 45, 13
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+rollout_menu_inactive
+  rotate: false
+  xy: 896, 211
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1

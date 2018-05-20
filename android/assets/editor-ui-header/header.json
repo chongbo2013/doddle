@@ -1,0 +1,25 @@
+{
+
+  com.badlogic.gdx.graphics.g2d.BitmapFont: {
+    default: { file: fonts/default-dodles.fnt }
+  },
+  com.badlogic.gdx.graphics.Color: {
+    white: { a: 1, b: 1, g: 1, r: 1 },
+    black: { a: 1, b: 0, g: 0, r: 0 },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    black: { name: white_background, color: black },
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    menu: { imageUp: menu },
+    logo: { imageUp: logo },
+    cancel: { imageUp: cancel_clip },
+    okay_0: { imageUp: ok_level_0 },
+    okay_1: { imageUp: ok_level_1 },
+    okay_2: { imageUp: ok_level_2 },
+    okay_3: { imageUp: ok_level_3 },
+    okay_4: { imageUp: ok_level_4 },
+    okay_5: { imageUp: ok_level_5 }
+  }
+
+}

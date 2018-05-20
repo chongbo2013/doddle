@@ -1,0 +1,5 @@
+<table fillparent=true>
+    <button id=listScenes>List</button>
+    <button id=listLayers>Layers</button>
+    <container fillX=true expandX=true />
+</table>

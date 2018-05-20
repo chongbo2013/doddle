@@ -1,0 +1,77 @@
+<table>
+    <table id=leftColumn fillY=true expandY=true background=menu-row-shade-1 width={sideColumnSize}>
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=drawButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=drawButton_image expandX=true fillX=true expandY=true fillY=true />
+                </table>
+                <label id=drawButton_label>Brush</label>
+            </stack>
+        </button>
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=fontButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=fontButton_image expandX=true fillX=true expandY=true fillY=true />
+                </table>
+                <label id=fontButton_label>Font</label>
+            </stack>
+        </button>
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=contentButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=contentButton_image expandX=true fillX=true expandY=true fillY=true />
+                </table>
+                <label id=contentButton_label>Content</label>
+            </stack>
+        </button>
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=undoButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=undoButton_image />
+                </table>
+                <label id=undoButton_label>Undo</label>
+            </stack>
+        </button>
+    </table>
+    <table fillY=true expandY=true width={sideColumnSize}>
+        <container id=invisibleColumnSpace expandY=true fillY=true expandX=true fillX=true row=true />
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=redoButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=redoButton_image />
+                </table>
+                <label id=redoButton_label>Redo</label>
+            </stack>
+        </button>
+    </table>
+    <table fillX=true expandX=true expandY=true fillY=true>
+    </table>
+    <table id=rightColumn fillY=true expandY=true background=menu-row-shade-1 row=true width={sideColumnSize}>
+        <container id=rightColumnSpace expandX=true fillX=true row=true />
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=trashButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=trashButton_image />
+                </table>
+                <label id=trashButton_label>Trash</label>
+            </stack>
+        </button>
+        <button expandY=true fillY=true expandX=true fillX=true row=true id=sendButton style=no-tint>
+            <stack expandY=true expandX=true fillY=true fillX=true>
+                <table fillParent=true>
+                    <image id=sendButton_image />
+                </table>
+                <label id=sendButton_label>Send</label>
+            </stack>
+        </button>
+    </table>
+    <stack fillX=true expandX=true colspan=4>
+        <table fillParent=true>
+            <container fillX=true expandX=true row=true background=menu-row-shade-1 height={oneRowSize} id=row1 />
+            <container fillX=true expandX=true row=true background=menu-row-shade-2 height={oneRowSize} id=row2 />
+        </table>
+        <table fillParent=true>
+            <container fillX=true expandX=true row=true id=overlay height={twoRowSize} />
+        </table>
+    </stack>
+</table>

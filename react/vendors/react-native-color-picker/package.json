@@ -1,0 +1,56 @@
+{
+  "_from": "react-native-color-picker@^0.3.1",
+  "_id": "react-native-color-picker@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha1-W9BrvXlxph/P+CmUnUzdRgI2Ss0=",
+  "_location": "/react-native-color-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-color-picker@^0.3.1",
+    "name": "react-native-color-picker",
+    "escapedName": "react-native-color-picker",
+    "rawSpec": "^0.3.1",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-color-picker/-/react-native-color-picker-0.3.1.tgz",
+  "_shasum": "5bd06bbd7971a61fcff829949d4cdd4602364acd",
+  "_spec": "react-native-color-picker@^0.3.1",
+  "_where": "/Users/tylergotz/dodles-app",
+  "author": {
+    "name": "instea.co"
+  },
+  "bugs": {
+    "url": "https://github.com/instea/react-native-color-picker/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
+  },
+  "deprecated": false,
+  "description": "Color picker for react native",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.11.1",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "homepage": "https://github.com/instea/react-native-color-picker#readme",
+  "license": "Apache-2.0",
+  "main": "src/index.js",
+  "name": "react-native-color-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/instea/react-native-color-picker.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.3.1"
+}

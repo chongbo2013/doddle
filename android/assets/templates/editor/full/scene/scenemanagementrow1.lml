@@ -1,0 +1,5 @@
+<table fillparent=true>
+    <table padLeft=10 id=sceneTable/>
+    <container fillX=true expandX=true />
+    <button id=addSceneButton2>+</button>
+</table>

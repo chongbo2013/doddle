@@ -1,0 +1,18 @@
+package com.dodles.gdx.dodleengine.tools.animation;
+
+public enum AnimationSubtoolState {
+    UNKNOWN, // Error State
+    DISABLED,
+    TIMELINE,
+    EFFECT_SELECT,
+    MOVE_EFFECT_DEMO,
+    MOVE_EFFECT_DRAW,
+    MOVE_EFFECT_CONFIGURE,
+    ROTATE_EFFECT_DEMO,
+    ROTATE_EFFECT_INPUT,
+    ROTATE_EFFECT_CONFIGURE,
+    ROTATE_EFFECT_PIVOT_POINT,
+    SCALE_EFFECT_DEMO,
+    SCALE_EFFECT_INPUT,
+    SCALE_EFFECT_CONFIGURE
+}

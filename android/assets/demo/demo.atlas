@@ -1,0 +1,74 @@
+
+demo.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+DemoArrow
+  rotate: false
+  xy: 249, 139
+  size: 123, 102
+  orig: 123, 102
+  offset: 0, 0
+  index: -1
+DemoCharacter
+  rotate: false
+  xy: 704, 246
+  size: 242, 678
+  orig: 242, 678
+  offset: 0, 0
+  index: -1
+DemoRotatePath
+  rotate: false
+  xy: 2, 243
+  size: 700, 681
+  orig: 700, 681
+  offset: 0, 0
+  index: -1
+DemoTouchPoint
+  rotate: false
+  xy: 2, 2
+  size: 245, 239
+  orig: 245, 239
+  offset: 0, 0
+  index: -1
+
+demo2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+DemoRotatePathFlip
+  rotate: false
+  xy: 2, 2
+  size: 700, 681
+  orig: 700, 681
+  offset: 0, 0
+  index: -1
+DemoScalePath
+  rotate: false
+  xy: 704, 339
+  size: 267, 344
+  orig: 267, 344
+  offset: 0, 0
+  index: -1
+
+demo3.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+DemoBackground
+  rotate: false
+  xy: 2, 402
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+DemoMovePath
+  rotate: false
+  xy: 2, 2
+  size: 531, 398
+  orig: 531, 398
+  offset: 0, 0
+  index: -1

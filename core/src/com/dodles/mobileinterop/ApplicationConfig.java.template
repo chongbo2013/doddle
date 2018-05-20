@@ -1,0 +1,42 @@
+package com.dodles.mobileinterop;
+
+/**
+ * Application configuration parameters.
+ */
+public final class ApplicationConfig {
+    private static String webURL = "http://localhost:3000";
+    private static String topNavURL = "http://localhost:3000/topnav.html";
+    private static String leftNavURL = "http://localhost:3000/leftnav.html";
+    private static String socialURL = "http://localhost:3000/social.html";
+
+    private ApplicationConfig() {
+    }
+
+    /**
+     * Returns the URL of the dodles web site.
+     */
+    public static String getWebURL() {
+        return webURL;
+    }
+
+    /**
+     * Returns the top navigation URL of the dodles web site.
+     */
+    public static String getTopNavURL() {
+        return topNavURL;
+    }
+
+    /**
+     * Returns the top navigation URL of the dodles web site.
+     */
+    public static String getLeftNavURL() {
+        return leftNavURL;
+    }
+
+    /**
+     * Returns the top navigation URL of the dodles web site.
+     */
+    public static String getSocialURL() {
+        return socialURL;
+    }
+}

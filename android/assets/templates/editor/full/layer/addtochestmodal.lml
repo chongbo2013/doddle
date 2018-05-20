@@ -1,0 +1,7 @@
+<dialog title="Add Object to Chest" style=dialog>
+    <label>Object Name:</label>
+    <textField id=objectNameField row=true></textField>
+    <separator colspan=2 row=true />
+    <textButton id=okButton>Add to Chest</textButton>
+    <textButton id=cancelButton>Cancel</textButton>
+</dialog>

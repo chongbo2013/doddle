@@ -1,0 +1,5 @@
+<table fillparent=true>
+    <button>Characters</button>
+    <table padLeft=10 id=characterTable />
+    <container fillX=true expandX=true />
+</table>

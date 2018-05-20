@@ -1,0 +1,218 @@
+apply plugin: "com.android.application"
+
+project.ext.react = [
+        // the name of the generated asset file containing your JS bundle
+        bundleAssetName: "index.android.bundle",
+
+        // the entry file for bundle generation
+        entryFile: "index.android.js",
+
+        // whether to bundle JS and assets in debug mode
+        bundleInDebug: false,
+
+        // whether to bundle JS and assets in release mode
+        bundleInRelease: true,
+
+        // whether to bundle JS and assets in another build variant (if configured).
+        // See http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Build-Variants
+        // The configuration property can be in the following formats
+        //         'bundleIn${productFlavor}${buildType}'
+        //         'bundleIn${buildType}'
+        // bundleInFreeDebug: true,
+        // bundleInPaidRelease: true,
+        // bundleInBeta: true,
+
+        // the root of your project, i.e. where "package.json" lives
+        root: "../",
+
+        // where to put the JS bundle asset in debug mode
+        jsBundleDirDebug: "$buildDir/intermediates/assets/debug",
+
+        // where to put the JS bundle asset in release mode
+        jsBundleDirRelease: "$buildDir/intermediates/assets/release",
+
+        // where to put drawable resources / React Native assets, e.g. the ones you use via
+        // require('./image.png')), in debug mode
+        resourcesDirDebug: "$buildDir/intermediates/res/merged/debug",
+
+        // where to put drawable resources / React Native assets, e.g. the ones you use via
+        // require('./image.png')), in release mode
+        resourcesDirRelease: "$buildDir/intermediates/res/merged/release",
+
+        // by default the gradle tasks are skipped if none of the JS files or assets change; this means
+        // that we don't look at files in android/ or ios/ to determine whether the tasks are up to
+        // date; if you have any other folders that you want to ignore for performance reasons (gradle
+        // indexes the entire tree), add them here. Alternatively, if you have JS files in android/
+        // for example, you might want to remove it from here.
+        inputExcludes: ["android/**", "ios/**"],
+
+        // override which node gets called and with what additional arguments
+        nodeExecutableAndArgs: ["/usr/local/bin/node"],
+
+        // supply additional arguments to the packager
+        extraPackagerArgs: []
+]
+
+apply from: "../node_modules/react-native/react.gradle"
+
+android {
+    buildToolsVersion '25.0.0'
+    compileSdkVersion 23
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        instrumentTest.setRoot('tests')
+    }
+    packagingOptions {
+        exclude 'META-INF/robovm/ios/robovm.xml'
+        exclude "lib/arm64-v8a/libimagepipeline.so"
+        exclude "lib/x86_64/libimagepipeline.so"
+    }
+    defaultConfig {
+        applicationId "com.dodles.app"
+        minSdkVersion 17
+        targetSdkVersion 23
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+    }
+    signingConfigs {
+        release {
+            if (project.hasProperty('DODLES_APP_RELEASE_STORE_FILE')) {
+                storeFile file(DODLES_APP_RELEASE_STORE_FILE)
+                storePassword DODLES_APP_RELEASE_STORE_PASSWORD
+                keyAlias DODLES_APP_RELEASE_KEY_ALIAS
+                keyPassword DODLES_APP_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            //minifyEnabled enableProguardInReleaseBuilds
+            //proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            signingConfig signingConfigs.release
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(dir: "libs", include: ["*.jar"])
+    compile "com.android.support:appcompat-v7:23.0.1"
+    compile "com.facebook.react:react-native:+"  // From node_modules
+    compile project(':react-native-fs')
+    compile project(':react-native-share')
+}
+
+
+// called every time gradle gets executed, takes the native dependencies of
+// the natives configuration, and extracts them to the proper libs/ folders
+// so they get packed with the APK.
+task copyAndroidNatives() { 
+    file("libs/armeabi/").mkdirs();
+    file("libs/armeabi-v7a/").mkdirs();
+    file("libs/arm64-v8a/").mkdirs();
+    file("libs/x86_64/").mkdirs();
+    file("libs/x86/").mkdirs();
+
+    configurations.natives.files.each { jar ->
+        def outputDir = null
+        if(jar.name.endsWith("natives-arm64-v8a.jar")) outputDir = file("libs/arm64-v8a")
+        if(jar.name.endsWith("natives-armeabi-v7a.jar")) outputDir = file("libs/armeabi-v7a")        
+        if(jar.name.endsWith("natives-armeabi.jar")) outputDir = file("libs/armeabi")
+        if(jar.name.endsWith("natives-x86_64.jar")) outputDir = file("libs/x86_64")
+        if(jar.name.endsWith("natives-x86.jar")) outputDir = file("libs/x86")
+        if(outputDir != null) {
+            copy {
+                from zipTree(jar)
+                into outputDir
+                include "*.so"
+            }
+        }
+    }
+}
+
+task run(type: Exec) {
+    def path
+    def localProperties = project.file("../local.properties")
+    if (localProperties.exists()) {
+        Properties properties = new Properties()
+        localProperties.withInputStream { instr ->
+            properties.load(instr)
+        }
+        def sdkDir = properties.getProperty('sdk.dir')
+        if (sdkDir) {
+            path = sdkDir
+        } else {
+            path = "$System.env.ANDROID_HOME"
+        }
+    } else {
+        path = "$System.env.ANDROID_HOME"
+    }
+
+    def adb = path + "/platform-tools/adb"
+    commandLine "$adb", 'shell', 'am', 'start', '-n', 'com.dodles.app/com.dodles.app.android.MainActivity'
+}
+
+// sets up the Android Eclipse project, using the old Ant based build.
+eclipse {
+    // need to specify Java source sets explicitly, SpringSource Gradle Eclipse plugin
+    // ignores any nodes added in classpath.file.withXml
+    sourceSets {
+        main {
+            java.srcDirs "src", 'gen'
+        }
+    }
+
+    jdt {
+        sourceCompatibility = 1.6
+        targetCompatibility = 1.6
+    }
+
+    classpath {
+        plusConfigurations += [ project.configurations.compile ]        
+        containers 'com.android.ide.eclipse.adt.ANDROID_FRAMEWORK', 'com.android.ide.eclipse.adt.LIBRARIES'       
+    }
+
+    project {
+        name = appName + "-android"
+        natures 'com.android.ide.eclipse.adt.AndroidNature'
+        buildCommands.clear();
+        buildCommand "com.android.ide.eclipse.adt.ResourceManagerBuilder"
+        buildCommand "com.android.ide.eclipse.adt.PreCompilerBuilder"
+        buildCommand "org.eclipse.jdt.core.javabuilder"
+        buildCommand "com.android.ide.eclipse.adt.ApkBuilder"
+    }
+}
+
+// sets up the Android Idea project, using the old Ant based build.
+idea {
+    module {
+        sourceDirs += file("src");
+        sourceDirs += file("src");
+        scopes = [ COMPILE: [plus:[project.configurations.compile]]]
+
+        iml {
+            withXml {
+                def node = it.asNode()
+                def builder = NodeBuilder.newInstance();
+                builder.current = node;
+                builder.component(name: "FacetManager") {
+                    facet(type: "android", name: "Android") {
+                        configuration {
+                            option(name: "UPDATE_PROPERTY_FILES", value:"true")
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
